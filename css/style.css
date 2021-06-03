@@ -248,6 +248,10 @@ footer {
 /* .profile-block::before:hover {
   color: var(--accent-color);
 } */
+
+.icons-flex {
+  display: flex;
+}
 /* button */
 .button {
   color: var(--white);
