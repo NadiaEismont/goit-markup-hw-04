@@ -154,14 +154,14 @@ footer {
 .icons-contacts {
   margin-right: 10px;
   stroke: currentColor;
-  font-size: 14px;
-  line-height: 1, 14;
 }
 
 .icons-contacts-flex {
   display: flex;
   align-items: baseline;
   align-content: center;
+  display: inline-block;
+  align-items: center;
 }
 
 /* hover profile */
