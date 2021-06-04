@@ -154,12 +154,13 @@ footer {
 .icons-contacts {
   margin-right: 10px;
   stroke: currentColor;
-
-  align-items: center;
 }
+
 .icons-contacts-flex {
   display: flex;
+  align-items: center;
 }
+
 /* hover profile */
 .link:hover,
 .link:focus {
