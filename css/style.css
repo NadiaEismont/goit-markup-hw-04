@@ -169,6 +169,7 @@ footer {
   display: inline-block;
   width: 16px;
   height: 12px;
+  align-content: center;
 }
 /* hover profile */
 .link:hover,
