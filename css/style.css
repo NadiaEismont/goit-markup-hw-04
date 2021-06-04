@@ -156,7 +156,7 @@ footer {
   stroke: currentColor;
 }
 
-.icons-contacts-flex {
+.icons-contacts-flex svg {
   display: flex;
   align-items: baseline;
   align-content: center;
