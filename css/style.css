@@ -158,12 +158,18 @@ footer {
   object-position: left bottom;
 }
 
-.icons-contacts-flex {
+/* .icons-contacts-flex {
   display: flex;
   align-items: baseline;
   align-content: center;
-}
+} */
 
+.icons-contacts-flex::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+}
 /* hover profile */
 .link:hover,
 .link:focus {
