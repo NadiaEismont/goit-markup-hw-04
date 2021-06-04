@@ -160,8 +160,6 @@ footer {
   display: flex;
   align-items: baseline;
   align-content: center;
-  display: inline-block;
-  align-items: center;
 }
 
 /* hover profile */
