@@ -159,7 +159,7 @@ footer {
 .icons-contacts-flex {
   display: flex;
   align-items: baseline;
-  /* align-content:center; */
+  align-content: center;
 }
 
 /* hover profile */
