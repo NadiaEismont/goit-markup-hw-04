@@ -154,8 +154,8 @@ footer {
 .icons-contacts {
   margin-right: 10px;
   stroke: currentColor;
-  display: inline-block;
-  align-self: center;
+  display: flex;
+  align-items: center;
 }
 
 /* hover profile */
