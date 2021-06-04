@@ -173,6 +173,7 @@ footer {
 }
 .link-header-profile {
   align-items: center;
+  align-self: center;
 }
 /* hover profile */
 .link:hover,
