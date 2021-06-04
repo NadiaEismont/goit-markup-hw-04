@@ -250,18 +250,35 @@ footer {
 .profile-block:nth-child(4)::before {
   background-image: url(../icons/astronaut.svg);
 }
-/* .profile-block::before:hover {
-  color: var(--accent-color);
-} */
 
 .icons-list {
+  padding: 20px;
   display: flex;
   justify-content: space-between;
 }
-/* .icons-flex:hover {
-  color: var(--accent-color);
+.icons-flex {
+  /* height: 50px;
+  width: 50px; */
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
 }
-.icons-flex .fb {
+.icons-flex:hover {
+  background-color: var(--accent-color);
+}
+
+.icons {
+  display: flex;
+  fill: var(--icon-color);
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-flex:hover .icons {
+  fill: var(--white);
+}
+
+/* .icons-flex .fb {
   fill: currentColor;
 } */
 /* button */
