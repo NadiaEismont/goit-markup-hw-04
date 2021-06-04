@@ -154,7 +154,9 @@ footer {
 .icons-contacts {
   margin-right: 10px;
   stroke: currentColor;
-  background-size: contain;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
 .icons-contacts-flex {
