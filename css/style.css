@@ -171,6 +171,9 @@ footer {
   height: 12px;
   align-content: center;
 }
+.link-header-profile {
+  align-items: center;
+}
 /* hover profile */
 .link:hover,
 .link:focus {
