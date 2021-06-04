@@ -155,7 +155,7 @@ footer {
   margin-right: 10px;
   fill: currentColor;
   display: inline-block;
-  align-items: center;
+  align-self: center;
 }
 
 /* hover profile */
