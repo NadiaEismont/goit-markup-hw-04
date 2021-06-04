@@ -156,6 +156,7 @@ footer {
   stroke: currentColor;
   display: inline-block;
   align-self: center;
+  fill: cyan;
 }
 
 /* hover profile */
