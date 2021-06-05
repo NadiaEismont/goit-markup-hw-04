@@ -148,13 +148,12 @@ footer {
   padding-top: 31px;
   padding-bottom: 31px;
   align-items: center;
-  display: inline-block;
+  display:flex;
 }
 .icons-contacts {
   margin-right: 10px;
-  stroke: currentColor;
-  background-size: cover;
-  background-position: center;
+  fill: currentColor;
+  height: 16px;;
 }
 .icons-contacts::before {
   content: "";
