@@ -148,12 +148,12 @@ footer {
   padding-top: 31px;
   padding-bottom: 31px;
   align-items: center;
-  display:flex;
+  display: flex;
 }
 .icons-contacts {
   margin-right: 10px;
   fill: currentColor;
-  height: 16px;;
+  height: 16px;
 }
 .icons-contacts::before {
   content: "";
@@ -299,15 +299,12 @@ footer {
   justify-content: center;
   width: 20px;
   height: 20px;
- 
 }
 
 .icons:hover {
   background-color: var(--accent-color);
-   border-radius: 50%;
+  border-radius: 50%;
 }
-}
-
 
 /* 
 .icons-flex:hover .icons {
@@ -338,7 +335,7 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   padding: 10px 32px;
-   font-family: inherit;
+  font-family: inherit;
   cursor: pointer;
   border-radius: 4px;
   height: 38px;
