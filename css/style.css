@@ -520,7 +520,7 @@ footer {
 .join {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white);
@@ -535,6 +535,11 @@ footer {
   display: flex;
   flex-basis: calc((100% - 30px) / 4);
   margin-right: auto;
+}
+.icons {
+  fill: var(--white));
+  width: 20px;
+  height: 20px;
 }
 
 /* Portfolio part */
