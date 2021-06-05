@@ -128,9 +128,6 @@ footer {
   margin-left: auto;
 }
 
-.nav-list > .link {
-  display: block;
-}
 .link-header-profile:last-child {
   margin-right: 50px;
 }
@@ -148,7 +145,6 @@ footer {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  display: block;
   padding-top: 31px;
   padding-bottom: 31px;
   align-items: center;
@@ -158,8 +154,13 @@ footer {
   stroke: currentColor;
   background-size: cover;
   background-position: center;
-
-  /* object-position: left bottom; */
+}
+.icons-contacts::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  align-content: center;
 }
 
 /* .icons-contacts-flex {
@@ -168,13 +169,6 @@ footer {
   align-content: center;
 } */
 
-.icons-contacts-flex::before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  align-content: center;
-}
 /* .link-header-profile {
   align-items: center;
   align-self: center;
