@@ -190,7 +190,7 @@ footer {
 }
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 /* hero */
 
@@ -257,20 +257,20 @@ footer {
   height: 120px;
   border: 1px solid transparent;
   background-color: #f5f4fa;
-  background-image: url(../icons/Vector1.svg);
+  background-image: url(../icons/Vector1.svg#icon-Vector1);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
 }
 .profile-block:nth-child(2)::before {
-  background-image: url(../icons/Vector2.svg);
+  background-image: url(../icons/Vector2.svg#icon-Vector2);
 }
 .profile-block:nth-child(3)::before {
-  background-image: url(../icons/Vector3.svg);
+  background-image: url(../icons/Vector3.svg#icon-Vector3);
 }
 .profile-block:nth-child(4)::before {
-  background-image: url(../icons/astronaut.svg);
+  background-image: url(../icons/astronaut.svg#icon-astronaut);
 }
 
 .icons-list {
@@ -278,14 +278,14 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.icons-flex {
+/* .icons-flex {
   /* height: 50px;
   width: 50px; */
-  padding: 20px;
-  border-radius: 50%;
-  display: flex;
-}
-.icons-flex:hover {
+padding: 20px;
+border-radius: 50%;
+display: flex;
+*/
+/* .icons-flex:hover {
   background-color: var(--accent-color);
 }
 
@@ -294,11 +294,11 @@ footer {
   fill: var(--icon-color);
   align-items: center;
   justify-content: center;
-}
-
+} */
+/* 
 .icons-flex:hover .icons {
   fill: var(--white);
-}
+} */
 
 /* .icons-flex .fb {
   fill: currentColor;
