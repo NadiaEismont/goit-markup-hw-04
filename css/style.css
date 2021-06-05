@@ -151,12 +151,15 @@ footer {
   display: block;
   padding-top: 31px;
   padding-bottom: 31px;
+  align-items: center;
 }
 .icons-contacts {
   margin-right: 10px;
   stroke: currentColor;
+  background-size: cover;
+  background-position: center;
 
-  object-position: left bottom;
+  /* object-position: left bottom; */
 }
 
 /* .icons-contacts-flex {
@@ -258,20 +261,25 @@ footer {
   height: 120px;
   border: 1px solid transparent;
   background-color: #f5f4fa;
-  background-image: url(../icons/Vector1.svg#icon-Vector1);
-  background-size: contain;
+  background-image: url(../icons/antena.svg);
+  background-size: 65.32px 70px;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
+  padding: 25px 102px;
 }
 .profile-block:nth-child(2)::before {
-  background-image: url(../icons/Vector2.svg#icon-Vector2);
+  background-image: url(../icons/clock.svg);
 }
 .profile-block:nth-child(3)::before {
-  background-image: url(../icons/Vector3.svg#icon-Vector3);
+  background-image: url(../icons/diagram.svg);
 }
 .profile-block:nth-child(4)::before {
-  background-image: url(../icons/astronaut.svg#icon-astronaut);
+  background-image: url(../icons/astronaut.svg);
+}
+.profile-block:hover::before {
+  outline: var(--accent-color);
+  /* color: var(--accent-color); */
 }
 
 .icons-list {
