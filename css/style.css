@@ -200,6 +200,15 @@ footer {
   fill: var(--white);
 }
 
+.join-flex:hover {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.join-flex:hover .icons-footer {
+  fill: var(--white);
+}
+
 /* hero */
 
 .hero-title {
@@ -530,6 +539,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+  align-items: flex-start;
 }
 
 .join-flex {
