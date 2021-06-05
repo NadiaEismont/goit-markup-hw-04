@@ -279,7 +279,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.icons {
+.icons-flex .icons {
   display: flex;
   fill: var(--icon-color);
   align-items: center;
@@ -287,13 +287,13 @@ footer {
   width: 20px;
   height: 20px;
 }
-.icons-flex {
+/* .icons-flex {
   height: 50px;
   width: 50px;
   padding: 20px;
   border-radius: 50%;
   display: flex;
-}
+} */
 
 /* .icons-flex:hover {
   background-color: var(--accent-color);
