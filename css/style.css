@@ -279,32 +279,32 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-/* .icons-flex {
-  /* height: 50px;
-  width: 50px; */
-/* padding: 20px;
-border-radius: 50%;
-display: flex;
-*/
-*/
-/* .icons-flex:hover {
-  background-color: var(--accent-color);
-}
-
 .icons {
   display: flex;
   fill: var(--icon-color);
   align-items: center;
   justify-content: center;
-} */
+  width: 20px;
+  height: 20px;
+}
+.icons-flex {
+  height: 50px;
+  width: 50px;
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+}
+
+/* .icons-flex:hover {
+  background-color: var(--accent-color);
+}
+
+
 /* 
 .icons-flex:hover .icons {
   fill: var(--white);
 } */
 
-/* .icons-flex .fb {
-  fill: currentColor;
-} */
 /* button */
 .button {
   color: var(--white);
