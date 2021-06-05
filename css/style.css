@@ -172,7 +172,7 @@ footer {
   content: "";
   display: inline-block;
   width: 16px;
-  height: 12px;
+  height: 16px;
   align-content: center;
 }
 /* .link-header-profile {
@@ -286,7 +286,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-.icons-flex .icons {
+.icons {
   display: flex;
   fill: var(--icon-color);
   align-items: center;
