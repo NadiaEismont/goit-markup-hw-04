@@ -500,6 +500,7 @@ footer {
   color: var(--white);
   margin-bottom: 9px;
   margin-top: 20px;
+  display: inline-block;
 }
 .link-footer {
   font-style: normal;
@@ -528,6 +529,7 @@ footer {
 .join-part {
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
 }
 
 .join-flex {
@@ -536,8 +538,16 @@ footer {
   flex-basis: calc((100% - 30px) / 4);
   margin-right: auto;
 }
-.icons {
-  fill: var(--white));
+.icons-link-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+}
+
+.icons-footer {
+  fill: var(--white);
   width: 20px;
   height: 20px;
 }
