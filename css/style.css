@@ -338,8 +338,7 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   padding: 10px 32px;
-  /* display: flex; */
-  font-family: inherit;
+   font-family: inherit;
   cursor: pointer;
   border-radius: 4px;
   height: 38px;
