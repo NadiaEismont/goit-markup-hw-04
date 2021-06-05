@@ -148,6 +148,7 @@ footer {
   padding-top: 31px;
   padding-bottom: 31px;
   align-items: center;
+  display: inline-block;
 }
 .icons-contacts {
   margin-right: 10px;
@@ -299,10 +300,13 @@ footer {
   justify-content: center;
   width: 20px;
   height: 20px;
+ 
 }
 
-/* .icons-flex:hover {
+.icons:hover {
   background-color: var(--accent-color);
+   border-radius: 50%;
+}
 }
 
 
