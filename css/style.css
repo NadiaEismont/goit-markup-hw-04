@@ -357,25 +357,24 @@ footer {
   justify-content: center;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-}
-.customers-logo {
   fill: var(--icon-color);
-  height: 47px;
-  width: 82.9px;
 }
-.customers-flex > .customers-link {
-  height: 100%;
-  width: 100%;
+.customers-flex:hover,
+.customers-flex:focus {
+  color: var(--accent-color);
 }
-
-.customers-link:focus,
-.customers-link:hover {
-  background-color: var(--accent-color);
-}
-.customers-logo:hover,
+.customers-link:hover,
 .customers-link:focus {
   fill: currentColor;
 }
+.customers-logo {
+  height: 47px;
+  width: 82.9px;
+}
+/* .customers-flex > .customers-link {
+  height: 100%;
+  width: 100%;
+} */
 
 /* button */
 .button {
