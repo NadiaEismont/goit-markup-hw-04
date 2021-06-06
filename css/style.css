@@ -180,10 +180,11 @@ footer {
 .button:focus {
   background-color: var(--accent-color);
 }
-.profile-block:hover::before {
+/* .profile-block:hover::before {
   border: 1px solid var(--accent-color);
-}
-.customers-flex:hover {
+} */
+.customers-flex:hover,
+.customers-flex:focus {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
@@ -191,21 +192,25 @@ footer {
   fill: var(--accent-color);
 }
 
-.icons-flex:hover {
+.icons-flex:hover,
+.icons-flex:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.icons-flex:hover .icons {
+.icons-flex:hover .icons,
+.icons-flex:focus .icons {
   fill: var(--white);
 }
 
-.join-flex:hover {
+.join-flex:hover,
+.join-flex:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.join-flex:hover .icons-footer {
+.join-flex:hover .icons-footer,
+.join-flex:focus .icons-footer {
   fill: var(--white);
 }
 
