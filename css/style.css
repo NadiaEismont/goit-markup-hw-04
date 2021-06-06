@@ -191,8 +191,11 @@ footer {
 .customers-flex:hover .customers-logo {
   fill: var(--accent-color);
 }
-.customers-flex:focus .customers-logo {
+/* .customers-flex:focus .customers-logo {
   fill: var(--accent-color);
+} */
+.customers-link {
+  fill: currentColor;
 }
 
 .icons-flex:hover,
