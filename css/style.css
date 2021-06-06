@@ -223,6 +223,11 @@ footer {
 .join-flex:focus .icons-footer {
   fill: var(--white);
 }
+.experience:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /* hero */
 
 .hero-title {
@@ -611,10 +616,7 @@ footer {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.experience-border {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
 .experience-border > h2 {
   font-weight: 700;
   font-size: 18px;
