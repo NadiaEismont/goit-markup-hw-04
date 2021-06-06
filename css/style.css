@@ -183,13 +183,15 @@ footer {
 /* .profile-block:hover::before {
   border: 1px solid var(--accent-color);
 } */
-.customers-flex:hover,
-.customers-flex:focus {
+.customers-flex:hover {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
 .customers-flex:hover .customers-logo {
   fill: var(--accent-color);
+}
+.customers-link:focus {
+  fill: currentColor;
 }
 /* .customers-flex:focus .customers-logo {
   fill: var(--accent-color);
@@ -198,17 +200,6 @@ footer {
   fill: currentColor;
   border-color: var(--accent-color);
 } */
-
-.icons-flex:hover,
-.icons-flex:focus {
-  background-color: var(--accent-color);
-  border-radius: 50%;
-}
-
-.icons-flex:hover .icons,
-.icons-flex:focus .icons {
-  fill: var(--white);
-}
 
 .join-flex:hover,
 .join-flex:focus {
@@ -220,7 +211,7 @@ footer {
   fill: var(--white);
 }
 
-.join-flex:focus .icons-footer {
+.join-flex:focus .icons-link-footer {
   fill: var(--white);
 }
 .experience:hover,
@@ -341,6 +332,16 @@ footer {
   width: 20px;
   height: 20px;
 }
+.icons-flex:hover,
+.icons-flex:focus {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.icons-flex:hover .icons,
+.icons-flex:focus .icons {
+  fill: var(--white);
+}
 
 /* customers */
 
@@ -355,11 +356,25 @@ footer {
   align-items: center;
   justify-content: center;
   border: 1px solid var(--icon-color);
+  border-radius: 4px;
 }
 .customers-logo {
   fill: var(--icon-color);
   height: 47px;
   width: 82.9px;
+}
+.customers-flex > .customers-link {
+  height: 100%;
+  width: 100%;
+}
+
+.customers-link:focus,
+.customers-link:hover {
+  background-color: var(--accent-color);
+}
+.customers-logo:hover,
+.customers-link:focus {
+  fill: currentColor;
 }
 
 /* button */
