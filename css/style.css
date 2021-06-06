@@ -196,6 +196,7 @@ footer {
 } */
 .customers-link {
   fill: currentColor;
+  border-color: var(--accent-color);
 }
 
 .icons-flex:hover,
