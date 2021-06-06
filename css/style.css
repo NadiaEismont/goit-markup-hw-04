@@ -191,6 +191,9 @@ footer {
 .customers-flex:hover .customers-logo {
   fill: var(--accent-color);
 }
+.customers-flex:focus .customers-logo {
+  fill: var(--accent-color);
+}
 
 .icons-flex:hover,
 .icons-flex:focus {
@@ -332,7 +335,6 @@ footer {
   justify-content: space-between;
 }
 .customers-flex {
-  margin-right: auto;
   height: 92px;
   width: 170px;
   display: flex;
