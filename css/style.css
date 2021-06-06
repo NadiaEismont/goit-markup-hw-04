@@ -188,12 +188,12 @@ footer {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
-.customers-flex:hover .customers-logo {
+/* .customers-flex:hover .customers-logo {
   fill: var(--accent-color);
 }
 .customers-flex:focus .customers-logo {
   fill: var(--accent-color);
-}
+} */
 
 .icons-flex:hover,
 .icons-flex:focus {
