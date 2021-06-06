@@ -155,13 +155,13 @@ footer {
   fill: currentColor;
   height: 16px;
 }
-.icons-contacts::before {
+/* .icons-contacts::before {
   content: "";
   display: inline-block;
   width: 16px;
   height: 16px;
   align-content: center;
-}
+} */
 
 /* hover profile */
 .link:hover,
@@ -509,7 +509,7 @@ footer {
   color: var(--white);
   margin-bottom: 9px;
   margin-top: 20px;
-  /* display: inline-block; */
+  display: inline-block;
 }
 .link-footer {
   font-style: normal;
@@ -527,6 +527,7 @@ footer {
   flex-direction: column;
   /* justify-content: flex-start; */
   margin-left: 70px;
+  /* flex-wrap: wrap; */
 }
 .join {
   font-weight: 700;
