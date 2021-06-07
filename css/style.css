@@ -212,9 +212,13 @@ footer {
 }
 .icons-link:focus {
   outline: none;
-  fill: var(--accent-color);
+  fill: var(--white);
   background-color: var(--accent-color);
   border-radius: 50%;
+}
+
+.icons-link:focus .icons {
+  fill: var(--white);
 }
 .icons-flex:hover .icons,
 .icons-flex:focus .icons {
@@ -227,13 +231,16 @@ footer {
   border-radius: 50%;
 }
 
-.join-flex:hover .icons-footer {
+.icons-link-footer:focus {
+  outline: none;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.icons-link-footer:hover .icons-footer {
   fill: var(--white);
 }
 
-.join-flex:focus .icons-link-footer {
-  fill: var(--white);
-}
 .experience:hover,
 .experience:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
