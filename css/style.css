@@ -201,12 +201,17 @@ footer {
   fill: currentColor;
   border-color: var(--accent-color);
 } */
+.icons {
+  fill: var(--icon-color);
+  width: 20px;
+  height: 20px;
+}
 .icons-flex:hover {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 .icons-link:focus {
-  outline-color: none;
+  outline: none;
   fill: var(--accent-color);
   background-color: var(--accent-color);
   border-radius: 50%;
@@ -341,11 +346,6 @@ footer {
   justify-content: center;
   width: 44px;
   height: 44px;
-}
-.icons {
-  fill: var(--icon-color);
-  width: 20px;
-  height: 20px;
 }
 
 /* customers */
