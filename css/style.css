@@ -321,7 +321,6 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
-  padding: 25px 102px;
 }
 .profile-block:nth-child(2)::before {
   background-image: url(../icons/clock.svg);
